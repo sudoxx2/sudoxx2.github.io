@@ -1,0 +1,488 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  /* overflow: scroll; */
+  /* -webkit-overflow-scrolling: touch; */
+}
+html {
+  /* overflow-x: hidden; */
+  margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+    height: 100%
+  
+  
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  /* overflow-x: hidden; */
+  /* height:100%; */
+  /* width: 100%;
+  height: 100%; */
+  scroll-behavior: smooth;
+  margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+}
+
+/* #section1 h1, h2, button, a {
+  text-align: center;
+} */
+h1 {
+  margin: 0 !important;
+}
+
+#section1_wrapper {
+  background: linear-gradient( to bottom right, rgba(30, 115, 172, 0.7), rgba(203, 22, 209, 0.2)), url("./assets/fast.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+
+
+
+
+#section1 {
+  text-align: center;
+  
+}
+
+#h1_section1 {
+  font-size: 80px;
+  color: #DFDFE5;
+  padding-top: 300px;
+  display: none;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+#h2_role {
+  display: none;
+}
+
+#see_proj_btn {
+  display: none;
+  /* margin-bottom: 00px; */
+}
+
+#section1 h2 {
+  font-size: 30px;
+  margin-top: 10px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+#section1_btn {
+  text-decoration: none;
+  color: white;
+  border-radius: 80% !important;
+  cursor: pointer;
+}
+
+.flex-container {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+}
+
+#section2_wrapper {
+  background-color: white;
+   height: 700px;
+  /*display: inline-block;
+	width: 500px;
+	min-height: 50px;
+	background-color: #eee;
+	height: auto; */
+}
+
+#section3_wrapper {
+  background: linear-gradient( to bottom right, rgba(30, 115, 172, 0.7), rgba(203, 22, 209, 0.2)), url("./assets/overgrown.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+
+#section4_wrapper {
+  background-color: white;
+  height: 700px;
+}
+
+#section2 {
+  margin-left: 100px;
+  /* margin-right: 50px; */
+  padding-top: 100px;
+  width: 600px;
+}
+
+#section2 h2 {
+  padding-bottom: 50px;
+}
+
+#section2 p {
+  padding-bottom: 50px;
+}
+
+#section2-1 {
+  
+  margin-top: 120px;
+}
+
+img {
+  width: 30%;
+}
+
+.h1_section2 {
+  text-align: center;
+  padding-top: 110px;
+  font-size: 50px;
+}
+
+.h1_section2-1 {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 30px;
+}
+
+.section2_h5 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.section2_p {
+  font-size: 18px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: 300px;
+  margin: 1rem;
+  position: relative;
+  width: 270px;
+  opacity: .8;
+}
+
+.i-marg {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+#section3 {
+  margin-top: 200px;
+}
+
+.flex-container2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#section3 {
+  text-align: center;
+}
+
+#section4 {
+  text-align: center;
+}
+
+.fa {
+  font-size:48px !important;
+}
+
+h5 {
+  font-size: 25px !important;
+  margin-bottom: 15px;
+  margin-top: -15px;
+}
+
+#section4 {
+  /* margin-left: 100px; */
+  /* margin-right: 50px; */
+  padding-top: 170px;
+  /* width: 600px; */
+}
+
+.flip-card-front h1 {
+  margin-bottom: 30px !important;
+  /* margin-top: 20px !important; */
+  padding-top: 20px;
+  font-style: bold;
+  font-weight: 400;
+  color: oldlace
+  /* background-color: aquamarine; */
+}
+
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  margin: 50px;
+  display: inline-block;
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+#section4 img{
+	width: 300px;
+	height: 300px;
+}
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #fff;
+  color: black;
+  border: 5px black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.card-4 {
+  box-shadow: 0 14px 28px rgba(129, 98, 98, 0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#citrusTop {
+  background: linear-gradient( to bottom right, rgba(12, 87, 16, 0.7), rgba(236, 236, 236, 0.2)), url("dollar.jpg");
+  margin: 0px !important;
+  height: 40%;
+}
+
+#citrusTop h1{
+  font-size: 40px;
+}
+
+.bottomCard {
+  margin-top: 30px;
+}
+
+.backCard {
+  
+  margin-top: 50px !important;
+  padding: 30px;
+  /* margin-bottom: 20px; */
+  
+}
+
+
+.backCard-2 {
+  
+  margin-top: 50px !important;
+  padding: 30px;
+  /* margin-bottom: 20px; */
+  
+}
+
+.card-back-background {
+  background: linear-gradient( to bottom right, rgba(12, 87, 16, 0.7), rgba(236, 236, 236, 0.2)), url("dollar.jpg");
+}
+
+#fasttubeTop {
+  /* background: linear-gradient( to bottom right, rgba(12, 87, 16, 0.7), rgba(236, 236, 236, 0.2)), url("./assets/fasttube_logo_2.png"); */
+  background-image: url(assets/fasttube_logo_5.png);
+  margin: 0px !important;
+  height: 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-back-background-2 {
+  background: linear-gradient( to bottom right, rgba(165, 149, 9, 0.7), rgba(194, 10, 10, 0.2)), url("./assets/fasttube_logo.png");
+
+}
+
+.w3-button {
+  border-radius: 25px;
+}
+
+#firstCardBtn {
+  width: 50%;
+}
+
+.modalBottom {
+  margin: 100px 0px;
+  text-align: left;
+  align-content: center;
+}
+
+#secondCardBtn {
+  width: 100%;
+  height: 40px;
+  margin-top: 50px;
+}
+
+.backCard p span {
+  background-color: darkslategray;
+}
+
+.backCard-2 p span {
+  background-color: rgb(58, 40, 16);
+}
+
+.w3-container {
+  text-align: left;
+} 
+
+.w3-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  
+  /* flex-wrap: wrap; */
+  /* justify-content: left; */
+}
+
+#id01 img{
+
+  width: 80%;
+  height: 500px;
+}
+
+@media screen and (max-width: 1024px) {
+  #section1 h1 {
+      font-size: 80px;
+  }
+  
+
+  #section2 {
+    margin-left: 10px;
+    /* margin-right: 50px; */
+    padding-top: 100px;
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #section1 h1 {
+      font-size: 4.0rem;
+  }
+
+  #section1 h2 {
+      font-size: 1.5rem;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  #section1 h1 {
+      font-size: 3.0rem;
+      padding-top: 200px;
+  }
+
+  #section1 h2 {
+      font-size: 1.5rem;
+  }
+
+  /* SECTION2 */
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #section2-1 div.flex-container {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+  }
+
+  #section2_wrapper {
+    height: 1100px;
+  }
+
+  #section2 {
+    /* padding-right: 50px; */
+    /* text-align: center; */
+    margin-bottom: -150px;
+    width: 300px;
+  }
+
+  img {
+    width: 30%;
+    /* margin-left: 100px; */
+  }
+
+  #section1_wrapper {
+    background: linear-gradient( to bottom right, rgba(30, 115, 172, 0.9), rgba(203, 22, 209, 0.2)), url("./assets/fast.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+  }
+
+  #section3_wrapper {
+    height: 1700px;
+  }
+
+  .flip-card:hover {
+    transform: rotateY(0deg);
+  }
+  
+  .flip-card-back {
+    transform: rotateY(0deg);
+  }
+
+  .w3-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    /* flex-wrap: wrap; */
+    /* justify-content: left; */
+  }
+
+  #id01 img{
+
+    width: 100%;
+    height: 350px;
+  }
+
+  .modalBottom {
+    margin: 10px 0px;
+    text-align: left;
+    align-content: center;
+  }
+
+  #secondCardBtn {
+    width: 100%;
+    height: 40px;
+    margin: 30px 0px;
+  }
+
+  
+
+  
+}
