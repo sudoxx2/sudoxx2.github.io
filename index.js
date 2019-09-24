@@ -21,7 +21,7 @@ window.onclick = function(event) {
 }
 
 $(document).ready(function(){
-  if ($(window).width() < 480) {
+  if ($(window).width() <= 480) {
     $('#card1').removeClass('flip-card-inner');
 } else {
     $('#card1').addClass('flip-card-inner');

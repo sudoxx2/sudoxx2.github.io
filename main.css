@@ -32,6 +32,7 @@ body {
     overflow-y: hidden;
 }
 
+
 /* #section1 h1, h2, button, a {
   text-align: center;
 } */
@@ -208,7 +209,7 @@ h5 {
 #section4 {
   /* margin-left: 100px; */
   /* margin-right: 50px; */
-  padding-top: 50px;
+  padding-top: 30px;
   /* width: 600px; */
 }
 
@@ -481,11 +482,6 @@ h5 {
     width: 100%;
     height: 40px;
     margin: 30px 0px;
-  }
-
-  #id01 {
-    overflow-x: hidden;
-    overflow-y: hidden;
   }
 
   
