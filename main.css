@@ -17,6 +17,7 @@ html {
     max-width: 100%; 
     overflow-x: hidden;
     overflow-y: visible; */
+    scroll-behavior: smooth;
 }
 
 body {
@@ -47,7 +48,10 @@ h1 {
   height: 1000px;
 }
 
-
+#firstCardBtn a {
+  display: block;
+  fill
+}
 
 
 #section1 {
@@ -114,7 +118,7 @@ h2 {
 
 #section4_wrapper {
   background-color: white;
-  height: 900px;
+  height: 500px;
 }
 
 #section2 {
@@ -436,6 +440,12 @@ h5 {
 @media screen and (max-width: 890px) {
   #section2 {
     padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 835px) {
+  #section4_wrapper {
+    height: 900px;
   }
 }
 
