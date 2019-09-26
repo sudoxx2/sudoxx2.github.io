@@ -100,7 +100,7 @@ body {
   }
   .nav > #nav-check:checked ~ .nav-links {
     /* height: calc(100vh - 50px); full screen */
-    height: 200px; 
+    height: 250px; 
     overflow-y: auto;
   }
 }
